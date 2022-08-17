@@ -6,30 +6,40 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Odin Landing Page</title>
     <link rel="stylesheet" href="styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body>
     <div class="header">
-      <h3 class="headerLogo">Header Logo</h3>
-      <ul>
-        <li><a href="#">Header Link One</a></li>
-        <li><a href="#">Header Link Two</a></li>
-        <li><a href="#">Header Link Three</a></li>
-      </ul>
+      <div class="headertop">
+        <h3 class="headerLogo">Header Logo</h3>
+        <ul>
+          <li><a href="#">Header Link One</a></li>
+          <li><a href="#">Header Link Two</a></li>
+          <li><a href="#">Header Link Three</a></li>
+        </ul>
+      </div>
       <div class="headerContent">
-        <h1 class="headerTitle">This Website is Awesome</h1>
-        <p class="headerText">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate
-          molestias blanditiis, commodi vitae cum distinctio eius reprehenderit
-          voluptatibus. Est quibusdam commodi excepturi aspernatur officiis
-          beatae vero odit, delectus rem accusamus.
-        </p>
-        <button class="signUpBtn">Sign Up</button>
-        <div class="image">This is for an image</div>
+        <div class="headtextcontainer">
+          <h1 class="headerTitle">This Website is Awesome</h1>
+          <p class="headerText">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate
+            molestias blanditiis, commodi vitae cum distinctio eius
+            reprehenderit voluptatibus. Est quibusdam commodi excepturi
+            aspernatur officiis beatae vero odit, delectus rem accusamus.
+          </p>
+          <button class="signUpBtn">Sign Up</button>
+        </div>
+        <div class="headerImage">This is for an image</div>
       </div>
     </div>
     <div class="content">
       <h3 class="contentTitle">Some Random Information</h3>
-      <div class="card container">
+      <div class="cardContainer">
         <div class="card">
           <div class="cardImage"></div>
           <p class="cardText">
@@ -55,22 +65,24 @@
           </p>
         </div>
       </div>
-      <div class="quoteContainer">
-        <p class="quote">
-          This is an inspiring quote or testimonial from a customer. Maybe it's
-          filling up space or maybe people will actually read it. Who knows? All
-          I know is it looks nice!
-        </p>
-        <sub class="customer">- Thor, God of Thunder</sub>
-      </div>
-      <div class="signUpBottom">
-        <div class="signUpBotContent">
+    </div>
+    <div class="quoteContainer">
+      <p class="quote">
+        This is an inspiring quote or testimonial from a customer. Maybe it's
+        filling up space or maybe people will actually read it. Who knows? All I
+        know is it looks nice!
+      </p>
+      <sub class="customer">- Thor, God of Thunder</sub>
+    </div>
+    <div class="signUpBottom">
+      <div class="signUpBotContent">
+        <div class="botTextContainer">
           <h4 class="botTitle">Call To Action! It's Time!</h4>
           <p class="botText">
             Sign up to our product by clicking the button right over there!
           </p>
-          <button class="signUpBtnBot">Sign Up</button>
         </div>
+        <button class="signUpBtnBot">Sign Up</button>
       </div>
     </div>
     <div class="footer">
