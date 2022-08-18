@@ -1,6 +1,6 @@
 
 * {
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Courgette', cursive;
     box-sizing: border-box;
 }
 
@@ -25,7 +25,7 @@ ul {
 
 a {
     text-decoration: none;
-    color: #e5e7eb;
+    color: #222525;
     font-size: 18px;
 }
 
@@ -36,39 +36,52 @@ a {
 }
 
 .header {
-    background-color: #1F2937;
+    background-color: #f8f5f2;
     display: flex;
     flex-direction: column;
     padding: 10px 300px 60px;
 }
 
 .headerLogo {
-    color: #f9faf8;
+    color: #232323;
     font-size: 24px;
 }
 
 .headerTitle {
-    color: #f9faf8;
+    color: #232323;
     font-size: 48px;
     font-weight: 900;
 }
 
 .headerText {
-    color: #e5e7eb;
+    color: #222525;
     font-size: 18px;
 }
 
 .headerImage {
-    color: #e5e7eb;
+    color: #222525;
     font-size: 18px;
     width: 600px;
-    height: 200px;
+    height: 325px;
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: #999;
     flex-shrink: 0;
     margin-left: 50px;
+    
+}
+
+.image {
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: cover;
+    border: #078080 solid 3px;
+    border-radius: 15px;
+    flex: 1;
+}
+
+.cardone {
+    object-position: 50% 5%;
 }
 
 .headerContent {
@@ -88,8 +101,8 @@ a {
 }
 
 .signUpBtn {
-    color: #e5e7eb;
-    background-color: #3882f6;
+    color: #222525;
+    background-color: #078080;
     border: none;
     padding: 10px 32px;
     text-align: center;
@@ -102,8 +115,8 @@ a {
 
 .signUpBtn:hover {
     background-color: white;
-    border: #3882f6 solid 1px;
-    color: #3882f6;
+    border: #078080 solid 1px;
+    color: #078080;
     cursor: pointer;
 }
 
@@ -119,7 +132,7 @@ a {
 .contentTitle {
     font-size: 36px;
     font-weight: 900;
-    color: #1F2937;
+    color: #232323;
 }
 
 .cardContainer {
@@ -130,8 +143,16 @@ a {
 .cardImage {
     width: 200px;
     height: 200px;
-    border: #3882f6 solid 3px;
+    display: flex;
+}
+
+.imageCard {
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: cover;
+    border: #078080 solid 3px;
     border-radius: 15px;
+    flex: 1;
 }
 
 .cardText {
@@ -142,7 +163,7 @@ a {
 /* QUOTE */
 
 .quoteContainer {
-    background-color: #e5e7eb;
+    background-color: #222525;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -156,13 +177,13 @@ a {
     font-weight: 300;
     font-style: italic;
     width: 790px;
-    color: #1F2937;
+    color: #f8f5f2;
     margin-bottom: 0;
 }
 
 .customer {
     font-size: 24px;
-    color: #1F2937;
+    color: #f8f5f2;
     font-weight: 900;
     margin-left: 420px;
     margin-top: 0;
@@ -180,7 +201,7 @@ a {
 
 .signUpBotContent {
     display: flex;
-    background-color: #3882f6;
+    background-color: #078080;
     width: 1000px;
     align-items: center;
     justify-content: space-around;
@@ -196,20 +217,20 @@ a {
 }
 
 .botTitle {
-    color: #f9faf8;
+    color: #232323;
     margin: 0;
     font-size: 20px;
 }
 
 .botText {
-    color: #e5e7eb;
+    color: #222525;
     margin: 0;
 }
 
 .signUpBtnBot {
-    color: #e5e7eb;
-    background-color: #3882f6;
-    border: #e5e7eb solid 2px;
+    color: #222525;
+    background-color: #078080;
+    border: #222525 solid 2px;
     padding: 10px 32px;
     text-align: center;
     text-decoration: none;
@@ -222,15 +243,15 @@ a {
 
 .signUpBtnBot:hover {
     background-color: white;
-    border: #3882f6 solid 1px;
-    color: #3882f6;
+    border: #078080 solid 1px;
+    color: #078080;
     cursor: pointer;
 }
 
 /* FOOTER */
 
 .footer {
-    background-color: #1F2937;
+    background-color: #f8f5f2;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -238,5 +259,5 @@ a {
 }
 
 .footerText {
-    color: #e5e7eb;
+    color: #222525;
 }
