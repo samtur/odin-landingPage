@@ -1,4 +1,4 @@
-# odin-landingPage
+#Odin Landing Page
 The Odin Project Landing page project.
 
 This is a short project completed whilst following The Odin Project.
